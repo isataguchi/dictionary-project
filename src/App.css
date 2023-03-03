@@ -1,8 +1,8 @@
 body {
   padding: 20px;
 }
-.App {
-  text-align: center;
+
+header {
+  max-width: 200px;
   margin: 0 auto;
-  max-width: 340px;
 }
