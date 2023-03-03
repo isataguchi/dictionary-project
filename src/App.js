@@ -11,20 +11,23 @@ function App() {
           <img src={logo} className="App-Logo img-fluid" alt="logo" />
         </header>
         <main>
+          <h1 className="text-center mt-5">Dictionary</h1>
           <Dictionary />
         </main>
         <footer>
-          <p className="footer">
+          <p className="footer text-center">
             {" "}
-            🌟 Coded by Isadora and is open-sourced on{" "}
-            <a
-              href="https://github.com/isataguchi/dictionary-project"
-              target="_blank"
-              rel="noopener noreferrer"
-              title="GitHub"
-            >
-              GitHub
-            </a>
+            <small>
+              🌟 Coded by Isadora and is open-sourced on{" "}
+              <a
+                href="https://github.com/isataguchi/dictionary-project"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="GitHub"
+              >
+                GitHub
+              </a>
+            </small>
           </p>
         </footer>
       </div>

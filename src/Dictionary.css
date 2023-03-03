@@ -1,0 +1,15 @@
+.Dictionary {
+  background: rgba(255, 255, 255, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.Example {
+  opacity: 0.7;
+  font-style: italic;
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 30px;
+}
