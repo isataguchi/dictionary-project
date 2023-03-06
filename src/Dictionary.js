@@ -52,15 +52,14 @@ export default function Dictionary(props) {
               autoFocus={true}
               onChange={handleKeyword}
             />
-            <a href="#">
-              <button
-                type="submit"
-                onChange={handleKeyword}
-                className="submit-button"
-              >
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </button>
-            </a>
+
+            <button
+              type="submit"
+              onChange={handleKeyword}
+              className="submit-button"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
           </form>
         </section>
         <Results results={results} />
