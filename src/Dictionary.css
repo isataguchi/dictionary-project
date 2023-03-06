@@ -13,8 +13,9 @@
 }
 
 .Results h2 {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 700;
+  text-transform: capitalize;
 }
 
 .Results h4 {
@@ -32,4 +33,16 @@
 li {
   margin: 0;
   padding: 0;
+}
+
+button {
+  background: rgba(255, 213, 136, 0.3);
+  border: solid 1px rgb(39, 32, 68);
+  color: rgb(39, 32, 68);
+  border-radius: 4px;
+}
+
+input {
+  border: solid 1px rgb(39, 32, 68);
+  border-radius: 4px;
 }
