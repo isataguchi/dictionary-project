@@ -2,7 +2,7 @@ import React from "react";
 import Meaning from "./Meaning";
 import Synonyms from "./Synonyms";
 import Phonetic from "./Phonetic";
-import ReactPlayer from "react-player";
+import ReactAudioPlayer from "react-audio-player";
 
 export default function Results(props) {
   if (props.results) {

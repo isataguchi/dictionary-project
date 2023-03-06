@@ -1,0 +1,12 @@
+audio {
+  width: 250px !important;
+  height: 40px;
+  margin-top: 15px;
+}
+
+.Phonetic-text {
+  display: inline;
+  line-height: 54px;
+  position: relative;
+  top: -10px;
+}
