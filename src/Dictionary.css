@@ -1,22 +1,33 @@
-.Dictionary {
-  background: rgba(255, 255, 255, 0.6);
-  padding: 40px;
-  border-radius: 10px;
-}
-
 .Example {
   opacity: 0.7;
   font-style: italic;
   font-size: 14px;
 }
 
-h2 {
+.Dictionary section {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 8px 8px 19px rgb(131, 131, 131, 0.4);
+  margin: 30px 0;
+}
+
+.Results h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.Results h4 {
   font-size: 30px;
 }
 
-p {
-  margin: 0 !important;
-  line-height: 24px;
+.Meaning h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.Results p {
+  line-height: 1.5;
 }
 li {
   margin: 0;

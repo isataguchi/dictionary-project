@@ -4,6 +4,9 @@ audio {
   margin-top: 15px;
 }
 
+.Phonetic {
+  text-align: center;
+}
 .Phonetic-text {
   display: inline;
   line-height: 54px;

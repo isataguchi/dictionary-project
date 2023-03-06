@@ -12,7 +12,7 @@ function App() {
         </header>
         <main>
           <h1 className="text-center mt-5">Dictionary</h1>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunset" />
         </main>
         <footer>
           <p className="footer text-center">
